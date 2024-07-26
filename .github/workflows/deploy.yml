@@ -24,7 +24,7 @@ jobs:
           deno-version: v1.x
 
       - name: Build step
-        run: "node bot.js"
+        run: "npm install node-telegram-bot-api jimp axios"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
