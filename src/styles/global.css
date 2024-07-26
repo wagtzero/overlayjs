@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .logo {
+    width: 80px;
+  }
+}
